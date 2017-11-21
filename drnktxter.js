@@ -1,5 +1,5 @@
 class DrunkTexter{
-	constructor(contacts = [new Person()], drunkenness = 0){
+	constructor(drunkenness = 0, contacts = [new Person()]){
 		this.drunkenness = drunkenness
 		this.alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$,?!&*".split("")
 		this.record = []
